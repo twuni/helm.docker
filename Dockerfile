@@ -2,7 +2,7 @@ FROM alpine:3.12.1
 
 RUN apk add --virtual essentials git openssh tar gzip ca-certificates
 
-ENV HELM_VERSION=3.4.1
+ENV HELM_VERSION=3.5.2
 
 RUN apk add --virtual setup curl;\
   cd /bin;\
